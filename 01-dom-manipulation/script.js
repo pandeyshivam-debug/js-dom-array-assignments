@@ -1,4 +1,4 @@
-// EASY...
+// EASY............................
 const mainHeading = document.getElementById("main-heading")
 mainHeading.textContent = "My Awesome Shop"
 
@@ -9,7 +9,7 @@ tagline.innerHTML = "Find the <strong>best</strong> products here!"
 const footer_p = document.querySelector("footer p")
 footer_p.innerHTML = "&copy; 2025 shivam.pandey@minfytech.com"
 
-// MEDIUM
+// MEDIUM..........................
 const main_container = document.getElementById("app-container")
 
 const heading_footer = document.createElement("h2")
@@ -20,7 +20,7 @@ p_footer.textContent = "We are a small team passionate about quality products."
 
 main_container.append(heading_footer, p_footer)
 
-// HARD
+// HARD............................
 const div = document.createElement("div")
 div.classList.add("contact-info")
 
